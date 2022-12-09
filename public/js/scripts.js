@@ -75,6 +75,6 @@ $(document).ready(function(){
     $('#formSubmit').click(()=>{
         submitForm();
     })
-    addCards(cardList);
+   getProjects();
     $('.modal').modal();
   });
